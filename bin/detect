@@ -1,5 +1,7 @@
 #!/bin/bash
 
+echo "TEST"
+
 BP_DIR=$(cd $(dirname ${0:-}); cd ..; pwd)
 
 $BP_DIR/vendor/buildpack detect $1
